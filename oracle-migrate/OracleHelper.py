@@ -9,7 +9,7 @@ class OracleHelper:
         self.charset = 'utf8'
         try:
             # self.conn = cx_Oracle.connect('scott/tiger@DESKTOP-IASSOVJ/orcl')
-            self.conn = cx_Oracle.connect('bomsowner', 'zaq12wsx', '192.168.220.168:1521/bomsdb')
+            self.conn = cx_Oracle.connect('user', 'password', '192.168.220.168:1521/dbname')
             self.cur = self.conn.cursor()
         except cx_Oracle.Error as e:
             print("Oracle Error %d: %s" % (e.args[0], e.args[1]))
