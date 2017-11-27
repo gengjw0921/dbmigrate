@@ -1,0 +1,17 @@
+.mymetadata
+.checkstyle
+.classpath
+.project
+.class
+.DS_Store
+.war
+.zip
+.rar
+.idea
+*.iml
+.settings/*
+/indexes/*
+/target/*
+/src/main/webapp/WEB-INF/classes/*
+/src/main/webapp/userfiles/*
+/target/
